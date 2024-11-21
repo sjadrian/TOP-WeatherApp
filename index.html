@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="icon" type="image/png" href="82dda2d6d520dfb4db8a.png">
+<script defer src="main.js"></script></head>
+<body>
+    <!-- loading spinner -->
+    <div id="loading-spinner" class="spinner"></div>
+
+     <!-- Content container -->
+     <div id="content">
+        <header>
+            <div class="logo-container">
+                <img src="4ea1fae5f99803d4b75a.png" alt="">
+            </div>
+            <div class="searchbar-container">
+                <input id="search-text" type="search" placeholder="Enter a City Name" required>
+                <button id="search-button" type="button">Search</button>
+            </div>
+            <div class="temp-toggle-container">
+                <button id="temp-toggle-button">°C/°F</button>
+            </div>
+        </header>
+    
+        <main>
+            <div id="info-container">
+                <div id="location"></div>
+                <div id="temp"></div>
+                <div class="weather-container">
+                    <div class="weather-text">Weather: </div>
+                    <div id="weather"></div>
+                </div>
+                <div class="uv-container">
+                    <div class="uv-text">UV Index: </div>
+                    <div id="uv"></div>
+                </div>
+                <div class="humidity-container">
+                    <div class="humidity-text">Humidity: </div>
+                    <div id="humidity"></div>
+                </div>
+                <div class="wind-container">
+                    <div class="wind-text">Wind Speed: </div>
+                    <div id="wind-speed"></div>
+                </div>
+            </div>
+        </main>
+    
+        <footer>
+            <h3>Copyright © 2024 sjadrian</h3>
+        </footer>
+     </div>
+   
+</body>
+</html>
